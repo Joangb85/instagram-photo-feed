@@ -1,0 +1,12 @@
+.container-fluid{
+    margin: 20px;
+}
+h1{
+    margin: 10px;
+    padding: 20px;
+}
+.container1{
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+}
