@@ -1,12 +1,43 @@
-.container-fluid{
-    margin: 20px;
+body{
+	background: #DBDBDB;
+	margin:0;
 }
-h1{
-    margin: 10px;
-    padding: 20px;
+div{
+	box-sizing: border-box;
 }
-.container1{
-    display: flex;
-    margin: 15px;
-    justify-content: space-between;
+header{
+	background: white;
+	padding: 10px;
+}
+header h1{
+	margin:0;
+}
+div.post{
+	background:white;
+}
+div.post img{
+	width:100%;
+}
+div.post .post-header div:first-child{
+	display:inline-block;
+	width: 80%;
+}
+div.post .post-header div:last-child{
+	display:inline-block;
+	width: 20%;
+	padding: 10px;
+	text-align: right;
+	color:grey;
+}
+div.post h2, div.post p{
+	padding: 10px;
+	margin: 0;
+}
+div.container, div.container4{
+	width: 600px;
+	margin:10px auto;
+}
+div.container4 .post img{
+	padding-top:100px;
+	padding-bottom:100px;
 }
